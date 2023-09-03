@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Replace with your CSS file path -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,700;0,900;1,500&display=swap"
+        rel="stylesheet">
+    <title>Musync Landing Page</title>
+</head>
+
+<body>
+    <header id="header">
+        <img id="header-img" src="https://res.cloudinary.com/dkptz9tx4/image/upload/v1693278847/musync-nobg_meclod.png"
+            alt="logo" />
+        <nav id="nav-bar">
+            <a class="nav-link" href="#features">Features</a>
+            <a class="nav-link" href="#howitworks">How It Works</a>
+            <a class="nav-link" href="#pricing">Pricing</a>
+            <a class="nav-link" id="trial-button" href="#start_trial">Start Free Trial</a>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="content">
+            <div class="left">
+                <h1>LET MUSIC <span class="header-txt">CONNECTS</span> WITH YOUR SOUL</h1>
+                <p>Experience music like never before with musync. Start your free trial today and unlock a world of harmonious exploration.</p>
+                <div class="button-container">
+                    <a class="cta-button" id="trial-button" href="#start_trial">Start Free Trial</a>
+                </div>
+            </div>
+            <div class="right">
+                <img src="https://res.cloudinary.com/dkptz9tx4/image/upload/v1693281554/bg_csi8ja.png">
+            </div>
+        </div>
+    </section>
+
+    <section id="features">
+        <h2>Key Features</h2>
+        <div class="content">
+            <div class="feature">
+                <img class="feature-image"
+                    src="https://res.cloudinary.com/dkptz9tx4/image/upload/v1693294041/playlist_q24dnm.png" alt="Feature 1">
+                <div class="feature-details">
+                    <h3>Vast Music Library and Personalized Playlists</h3>
+                    <p>Explore an extensive collection of songs spanning various genres, ensuring there's something for every
+                        mood and taste. Enjoy curated playlists tailored to your musical preferences, helping you discover new
+                        tracks you'll love.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <img class="feature-image"
+                    src="https://res.cloudinary.com/dkptz9tx4/image/upload/v1693294041/no-wifi_ujg6pa.png" alt="Feature 2">
+                <div class="feature-details">
+                    <h3>Offline Listening</h3>
+                    <p>Download your favorite songs and playlists to enjoy them even when you're offline, whether you're
+                        traveling or in areas with limited connectivity.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <img class="feature-image" src="https://res.cloudinary.com/dkptz9tx4/image/upload/v1693294041/music_ijqgwl.png"
+                    alt="Feature 3">
+                <div class="feature-details">
+                    <h3>High-Quality Audio and Smart Recommendations</h3>
+                    <p>Delight in crystal-clear sound quality that brings out the nuances of your favorite tracks. Discover new
+                        music that matches your taste, thanks to intelligent algorithms that learn and adapt to your
+                        preferences.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="howitworks">
+        <div class="content">
+            <div class="left">
+                <blockquote>
+                    <hr class="hr" />
+                    <h2 class="quote">Listen to your favorite music and bands with Musync.</h2>
+                    <hr class="hr" />
+                </blockquote>
+                
+            </div>
+            <div class="right">
+                <iframe id="video" width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                </iframe>
+            </div>
+        </div>
+        
+    </section>
+
+    <section id="pricing">
+        <h2>Pricing</h2>
+        <div class="subscription-cards">
+            <div class="subscription-card">
+                <h3>Basic Plan</h3>
+                <p>Enjoy unlimited music streaming with our Basic plan.</p>
+                <p class="price">$9.99/month</p>
+                <a href="#" class="subscribe-button">Subscribe</a>
+            </div>
+            <div class="subscription-card">
+                <h3>Premium Plan</h3>
+                <p>Get access to high-quality audio and offline listening with our Premium plan.</p>
+                <p class="price">$14.99/month</p>
+                <a href="#" class="subscribe-button">Subscribe</a>
+            </div>
+            <div class="subscription-card">
+                <h3>Pro Plan</h3>
+                <p>Experience the ultimate music experience with our exclusive Pro plan.</p>
+                <p class="price">$24.99/month</p>
+                <a href="#" class="subscribe-button">Subscribe</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="start_trial">
+        <h1>Ready to experience the magic?</h1>
+        <form id="form" method="POST" action="">
+            <div class="input-container">
+                <input id="email" name="email" placeholder="Enter your email" type="email">
+            </div>
+            <div class="button-container">
+                <input type="submit" id="submit" value="Start your free trial today!"> 
+            </div>
+        </form>
+    </section>
+
+</body>
+
+</html>
